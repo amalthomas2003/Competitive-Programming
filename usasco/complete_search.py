@@ -1,3 +1,4 @@
+#  http://www.usaco.org/index.php?page=viewproblem2&cpid=712
 import sys
 sys.stdin=open("circlecross.in","r")
 sys.stdout=open("circlecross.out","w")
@@ -14,4 +15,3 @@ for i in range(len(string)):
             count+=1
 print(count//4)
             
-    
