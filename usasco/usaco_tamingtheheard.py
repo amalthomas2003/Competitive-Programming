@@ -18,13 +18,9 @@ for i in list1:
 
     if i==-1:
         z+=1
-    elif i<=z :
+    elif i<=z or i==z+curr_max+1:
         z=0
         curr_max=i
-    elif i==z+curr_max+1:
-        z=0
-        curr_max=i
-
     else:
         print(-1)
         exit()
