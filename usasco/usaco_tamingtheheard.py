@@ -1,3 +1,8 @@
+
+#http://www.usaco.org/index.php?page=viewproblem2&cpid=809
+#difficulty:8/10 (time complexity n) [more easier time complexity of n^2 approach possible]
+#tags: adhoc,array
+
 import sys
 sys.stdin=open("taming.in","r")
 sys.stdout=open("taming.out","w")
@@ -21,7 +26,6 @@ for i in list1:
         curr_max=i
 
     else:
-        #print(i)
         print(-1)
         exit()
 new_list=[False]*100
