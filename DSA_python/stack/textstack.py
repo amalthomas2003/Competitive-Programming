@@ -1,7 +1,4 @@
-#   Created by Elshad Karimov on 02/06/2020.
-#   Copyright © 2020 AppMillers. All rights reserved.
 
-# Sort a stack with the smallest on top using only a single temporary stack.
 
 def sort_stack(stack):
   previous = stack.pop()
