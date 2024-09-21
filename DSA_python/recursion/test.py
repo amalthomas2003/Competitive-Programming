@@ -1,5 +1,3 @@
-#   Created by Elshad Karimov 
-#   Copyright © AppMillers. All rights reserved.
 
 
 def collectStrings(obj):
